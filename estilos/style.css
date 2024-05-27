@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+* {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body, html{
+    height: 100vh;
+    width: 100vw;
+    body{
+        background-image: linear-gradient(to top, #C3C3C3, #3C3C3C);
+    }
+}
+main{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+#login {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    width: 250px;
+    height: 500px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px black;
+    transition: 0.3s;
+    transition-timing-function: ease;
+}
+#imagem{
+    background: #5f2c82 url(../Imagens/Fundo\ Login.jpg) no-repeat;
+    height: 200px;
+    background-size: cover;
+    display: block;
+}
+#formulario{
+     padding: 10px;
+     display: block;
+}
+#formulario  h1{
+    text-align: center;
+    margin-bottom: 10px;
+}
+#formulario p{
+    font-size: 0.8em;
+}
