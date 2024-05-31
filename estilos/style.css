@@ -25,7 +25,7 @@ main{
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: white;
-    width: 250px;
+    width: 260px;
     height: 500px;
     border-radius: 20px;
     overflow: hidden;
@@ -34,7 +34,7 @@ main{
     transition-timing-function: ease;
 }
 #imagem{
-    background: #5f2c82 url(../Imagens/Fundo\ Login.jpg) no-repeat;
+    background: url(../Imagens/Fundo\ Login.jpg) no-repeat;
     height: 200px;
     background-size: cover;
     display: block;
@@ -49,4 +49,49 @@ main{
 }
 #formulario p{
     font-size: 0.8em;
+}
+.campo{
+    background-color: #5E5E5E;
+    width: 100%;
+    display: block;
+    height: 40px;
+    border-radius: 5px;
+    margin: 5px 0px;
+}
+.campo > label{
+    display: none;
+}
+form > input[type=submit]{
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    background-color: #5E5E5E;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+form > input[type=submit]:hover {
+    background-color: #3C3C3C;
+}
+form > a.botao {
+    display: block;
+    text-align: center;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    margin-top: 5px;
+    padding-top: 7px;
+    color: white;
+    background-color: #808080;
+    border: 1px solid #5E5E5E;
+    border-radius: 5px;
+    text-decoration: none;
+}
+form > a.botao > i{
+    font-size: 0.8em;
+}
+form > a.botao:hover {
+    background-color: #626262; 
 }
